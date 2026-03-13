@@ -1,0 +1,28 @@
+{
+  "name": "studyflow-ai-server",
+  "version": "1.0.0",
+  "description": "Backend API for StudyFlow AI - MERN study assistant",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node server.js",
+    "dev": "cross-env NODE_ENV=development nodemon server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.1",
+    "morgan": "^1.10.0",
+    "openai": "^4.28.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^3.1.0"
+  }
+}
+
